@@ -2,7 +2,7 @@
 //  SwiftSpeakerDemoApp.swift
 //  Shared
 //
-//  Created by XcodeDeveloper on 2021/10/05.
+//  Created by raku-pro on 2021/10/05.
 //
 
 import SwiftUI

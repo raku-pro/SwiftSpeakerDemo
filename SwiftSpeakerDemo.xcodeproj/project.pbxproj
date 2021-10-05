@@ -13,6 +13,12 @@
 		B9167CEB270C2E0900E42089 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9167CD9270C2E0700E42089 /* ContentView.swift */; };
 		B9167CEC270C2E0900E42089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9167CDA270C2E0900E42089 /* Assets.xcassets */; };
 		B9167CED270C2E0900E42089 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9167CDA270C2E0900E42089 /* Assets.xcassets */; };
+		B9167CF7270C2E6000E42089 /* SpeechConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9167CF6270C2E6000E42089 /* SpeechConfigurationView.swift */; };
+		B9167CF8270C2E6000E42089 /* SpeechConfigurationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9167CF6270C2E6000E42089 /* SpeechConfigurationView.swift */; };
+		B9167CFA270C2ECB00E42089 /* SwiftSpeaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9167CF9270C2ECB00E42089 /* SwiftSpeaker.swift */; };
+		B9167CFB270C2ECB00E42089 /* SwiftSpeaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9167CF9270C2ECB00E42089 /* SwiftSpeaker.swift */; };
+		B9167CFD270C2EF200E42089 /* SpeakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9167CFC270C2EF200E42089 /* SpeakerView.swift */; };
+		B9167CFE270C2EF200E42089 /* SpeakerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9167CFC270C2EF200E42089 /* SpeakerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,9 @@
 		B9167CDF270C2E0900E42089 /* SwiftSpeakerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSpeakerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9167CE5270C2E0900E42089 /* SwiftSpeakerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSpeakerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9167CE7270C2E0900E42089 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		B9167CF6270C2E6000E42089 /* SpeechConfigurationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechConfigurationView.swift; sourceTree = "<group>"; };
+		B9167CF9270C2ECB00E42089 /* SwiftSpeaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSpeaker.swift; sourceTree = "<group>"; };
+		B9167CFC270C2EF200E42089 /* SpeakerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +65,9 @@
 			children = (
 				B9167CD8270C2E0700E42089 /* SwiftSpeakerDemoApp.swift */,
 				B9167CD9270C2E0700E42089 /* ContentView.swift */,
+				B9167CF6270C2E6000E42089 /* SpeechConfigurationView.swift */,
+				B9167CFC270C2EF200E42089 /* SpeakerView.swift */,
+				B9167CF9270C2ECB00E42089 /* SwiftSpeaker.swift */,
 				B9167CDA270C2E0900E42089 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -177,7 +189,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9167CEA270C2E0900E42089 /* ContentView.swift in Sources */,
+				B9167CFA270C2ECB00E42089 /* SwiftSpeaker.swift in Sources */,
 				B9167CE8270C2E0900E42089 /* SwiftSpeakerDemoApp.swift in Sources */,
+				B9167CF7270C2E6000E42089 /* SpeechConfigurationView.swift in Sources */,
+				B9167CFD270C2EF200E42089 /* SpeakerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +201,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9167CEB270C2E0900E42089 /* ContentView.swift in Sources */,
+				B9167CFB270C2ECB00E42089 /* SwiftSpeaker.swift in Sources */,
 				B9167CE9270C2E0900E42089 /* SwiftSpeakerDemoApp.swift in Sources */,
+				B9167CF8270C2E6000E42089 /* SpeechConfigurationView.swift in Sources */,
+				B9167CFE270C2EF200E42089 /* SpeakerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
