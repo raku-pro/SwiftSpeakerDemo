@@ -1,8 +1,8 @@
 # SwiftSpeakerDemo
 
-Project for checking and demonstrating AVSpeechSynthesizer.
+Project for checking and demonstrating [AVSpeechSynthesizer](https://developer.apple.com/documentation/avfaudio/avspeechsynthesizer).
 
-AVSpeechSynthesizerの動作確認とデモ用プロジェクト.
+[AVSpeechSynthesizer](https://developer.apple.com/documentation/avfaudio/avspeechsynthesizer)の動作確認とデモ用プロジェクト.
 
 # Environment
 
@@ -13,9 +13,9 @@ AVSpeechSynthesizerの動作確認とデモ用プロジェクト.
 
 ## ContentView
 
-ContentView displays the list of AVSpeechSynthesisVoice in the execution environment.
+ContentView displays the list of [AVSpeechSynthesisVoice](https://developer.apple.com/documentation/avfaudio/avspeechsynthesisvoice) in the execution environment.
 
-実行環境のAVSpeechSynthesisVoiceの一覧を表示します。
+実行環境の[AVSpeechSynthesisVoice](https://developer.apple.com/documentation/avfaudio/avspeechsynthesisvoice)の一覧を表示します。
 
 ![images/voice-list.png](images/voice-list.png)
 
